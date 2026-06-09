@@ -1,0 +1,26 @@
+curl -X GET "http://localhost:3030/api/get_reviews?dealerId=12"
+
+[
+    {
+        "id": 31,
+        "name": "Olivie Howen",
+        "dealership": 12,
+        "review": "Optional next generation database",
+        "purchase": true,
+        "purchase_date": "11/13/2020",
+        "car_make": "Pontiac",
+        "car_model": "GTO",
+        "car_year": 2004
+    },
+    {
+        "id": 47,
+        "name": "Lorilee Veasey",
+        "dealership": 12,
+        "review": "Organic user-facing paradigm",
+        "purchase": true,
+        "purchase_date": "02/08/2021",
+        "car_make": "Maybach",
+        "car_model": "57",
+        "car_year": 2012
+    }
+]

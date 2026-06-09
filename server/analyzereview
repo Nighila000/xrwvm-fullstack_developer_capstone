@@ -1,0 +1,7 @@
+curl -X GET "http://localhost:5000/api/sentiment?text=Fantastic%20services"
+
+{
+    "sentiment": "positive",
+    "label": "positive",
+    "score": 0.92
+}

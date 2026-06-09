@@ -1,0 +1,16 @@
+curl -X GET "http://localhost:3030/api/get_dealers/12"
+
+[
+    {
+        "id": 12,
+        "city": "Silver Spring",
+        "state": "Maryland",
+        "st": "MD",
+        "address": "168 Pawling Lane",
+        "zip": "20918",
+        "lat": 39.144,
+        "long": -77.2076,
+        "short_name": "Tin",
+        "full_name": "Tin Car Dealership"
+    }
+]
